@@ -35,4 +35,4 @@ Partie 3:
 
 5. Les fichiers arrivent avec un certain délai car elles ont une forte latence du au service utilisé.
 
-6. Pour pour pouvoir s'authentifier et avoir un id.
+6. Pour pouvoir s'authentifier et avoir un id.
