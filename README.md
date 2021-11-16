@@ -25,7 +25,7 @@ Partie 2:
 
 1. Pour la partie Ingestion nous utilisons les logs du fichier python via le service dataStream qui le lit grâce au fichier producer. 
 
-2. Pour la partie Stockage nous utilisons AWS S3 pour stocker le stream de destination dans une bucket et pour transporter les données nous utilisons le serive Kinesis Firehose.
+2. Pour la partie Stockage nous utilisons AWS S3 pour stocker le stream de destination dans une bucket et pour transporter les données nous utilisons le servive Kinesis Firehose.
 
 3. Pour la partie Transformation, nous utilisons le service Kinesis Data Analytics qui va transformer les données.
 
