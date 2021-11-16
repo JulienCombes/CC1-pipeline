@@ -13,11 +13,7 @@ Dans le fichier "destination_s3_bucket.tf" j'ai changé les lignes suivantes :
 Dans le fichier "kinesis_datastream.tf" j'ai changé les lignes suivantes : 
 resource "aws_kinesis_stream" "datastream_ingestion" {
   name        = "datastream_ingestion"
- 
 
-elle permet d’écrire dans des flux de Amazon Kinesis Data Streams à l'aide de Kinesis Agent
-il permet l’installation des composantes dans la VM EC2 pour l’exécution de l’aplication
-son role est de collecter et formater les logs afin de les envoyer à kinesis data stream
 
 3. Voir capture d'écran
 
